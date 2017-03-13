@@ -1,3 +1,5 @@
+var Entry = require('./../js/journal.js').entryModule;
+
 $(document).ready(function(){
   $('#journal').submit(function(event) {
     event.preventDefault();

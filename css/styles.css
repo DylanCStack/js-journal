@@ -7,3 +7,8 @@ form {
   float:right;
   max-width: 50%;
 }
+body button{
+  clear:both;
+  float:left;
+  margin-top: 25px;
+}

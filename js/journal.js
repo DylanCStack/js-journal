@@ -48,3 +48,5 @@ Entry.prototype = {
     return teaser + "...";
   }//end of prototypes
 }
+
+exports.entryModule = Entry;
