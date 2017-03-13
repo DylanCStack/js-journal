@@ -1,0 +1,9 @@
+form {
+  float:left;
+  max-width: 50%;
+}
+
+#entry-list {
+  float:right;
+  max-width: 50%;
+}
