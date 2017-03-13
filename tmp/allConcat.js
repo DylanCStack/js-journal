@@ -27,3 +27,7 @@ $(document).ready(function(){
     $("body").css({"background-color":"#000000", "color":"white"});
   });
 });
+
+$(document).ready(function(){
+  $('#time').text(moment());
+});
