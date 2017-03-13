@@ -1,6 +1,6 @@
 function Entry(title, body) {
-  this.jTitle = title,
-  this.jBody = body
+  this.jTitle = title;
+  this.jBody = body;
 }
 
 Entry.prototype = {
@@ -31,7 +31,6 @@ Entry.prototype = {
   }, getTeaser : function() {
     var teaser = "";
     var punctuation = this.jBody[this.jBody.search(/[^a-zA-Z\d\s:]/)];
-    console.log(this.jBody.search(/[^a-zA-Z\d\s:]/))
     var sentence = this.jBody.split(/[^a-zA-Z\d\s:]/)[0].split(" ");
 
     if(sentence.length < 8){
@@ -47,6 +46,6 @@ Entry.prototype = {
     }
     return teaser + "...";
   }//end of prototypes
-}
+};
 
 exports.entryModule = Entry;
