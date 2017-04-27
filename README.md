@@ -1,4 +1,4 @@
-# Bike Thefts by Zip Code
+# JS Gulp Intro
 
 ### Authored by Dylan Stackhouse and Andrew Delvin
 
